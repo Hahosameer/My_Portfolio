@@ -1,6 +1,13 @@
 /* eslint-disable react/prop-types */
 import { motion } from 'framer-motion'
-import { FaHome, FaCode, FaBriefcase, FaGraduationCap, FaProjectDiagram, FaEnvelope } from 'react-icons/fa'
+import {
+  FaHome,
+  FaCode,
+  FaBriefcase,
+  FaProjectDiagram,
+  FaEnvelope,
+  FaFilePdf
+} from 'react-icons/fa'
 import './Navigation.css'
 import ThemeToggle from './ThemeToggle'
 
@@ -16,29 +23,43 @@ const Navigation = ({ activeSection }) => {
     { id: 'home', label: 'Home', icon: <FaHome /> },
     { id: 'skills', label: 'Skills', icon: <FaCode /> },
     { id: 'services', label: 'Services', icon: <FaBriefcase /> },
-    // { id: 'experience', label: 'Experience', icon: <FaBriefcase /> },
     { id: 'projects', label: 'Projects', icon: <FaProjectDiagram /> },
-    { id: 'contact', label: 'Contact', icon: <FaEnvelope /> }
+
+    { id: 'contact', label: 'Contact', icon: <FaEnvelope /> },
+    // ✅ CV NAV ITEM (special case)
+    {
+      id: 'cv',
+      label: 'CV',
+      icon: <FaFilePdf />,
+      external: true,
+      link: 'https://real-state-ui-omega.vercel.app/'
+    }
+
   ]
 
   return (
-    <motion.nav 
+    <motion.nav
       className={`navigation ${activeSection === 'home' ? 'navigation--home' : ''}`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+      transition={{ duration: 0.5, type: 'spring', stiffness: 100 }}
     >
       <div className="nav-container">
+
         <ul className="nav-menu">
           {navItems.map((item) => (
             <li key={item.id}>
-              <motion.a 
-                href={`#${item.id}`} 
+              <motion.a
+                href={item.external ? item.link : `#${item.id}`}
                 className={`nav-item ${activeSection === item.id ? 'active' : ''}`}
                 onClick={(e) => {
+                  if (item.external) return // allow download/open
                   e.preventDefault()
                   scrollToSection(item.id)
                 }}
+                download={item.external ? true : false}
+                target={item.external ? '_blank' : undefined}
+                rel={item.external ? 'noopener noreferrer' : undefined}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -48,9 +69,11 @@ const Navigation = ({ activeSection }) => {
             </li>
           ))}
         </ul>
+
         <div className="theme-toggle-wrapper">
           <ThemeToggle />
         </div>
+
       </div>
     </motion.nav>
   )
