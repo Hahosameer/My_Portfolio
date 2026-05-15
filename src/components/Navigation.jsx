@@ -16,7 +16,7 @@ const Navigation = ({ activeSection }) => {
     { id: 'home', label: 'Home', icon: <FaHome /> },
     { id: 'skills', label: 'Skills', icon: <FaCode /> },
     { id: 'services', label: 'Services', icon: <FaBriefcase /> },
-    { id: 'experience', label: 'Experience', icon: <FaBriefcase /> },
+    // { id: 'experience', label: 'Experience', icon: <FaBriefcase /> },
     { id: 'projects', label: 'Projects', icon: <FaProjectDiagram /> },
     { id: 'contact', label: 'Contact', icon: <FaEnvelope /> }
   ]

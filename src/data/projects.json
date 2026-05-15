@@ -1,235 +1,62 @@
 [
   {
-    "title": "Nothing Tech",
-    "subtitle": "Shopify E-commerce Platform",
-    "description": "Modern e-commerce platform for Nothing tech products featuring innovative design, seamless shopping experience, product showcases, and integrated payment systems.",
-    "technologies": ["Shopify", "Liquid", "JavaScript", "React", "CSS3", "Shopify API"],
-    "categories": ["Fullstack"],
-    "image": "shopify.png",
-    "liveLink": "https://my.nothing.tech/",
-    "githubLink": ""
-  },
-  {
-    "title": "Echelon Profile",
-    "subtitle": "Web3 Gaming Identity System",
-    "description": "Central profile system for Parallel.life gaming platform with pixel-perfect UI delivered across 3 phases. Advanced user authentication, profile customization, and enterprise-grade Web3 integration.",
-    "technologies": ["Django", "PostgreSQL", "Web3", "Docker", "GCP", "Pug"],
-    "categories": ["Blockchain", "Fullstack", "Game"],
-    "image": "echelon.png",
-    "liveLink": "https://profile.echelon.io/",
-    "githubLink": ""
-  },
-  {
-    "title": "Spoken.io",
-    "subtitle": "E-commerce Platform",
-    "description": "A full-featured e-commerce platform with product catalog, shopping cart, user authentication, payment processing, and admin dashboard.",
-    "technologies": ["React", "Node.js", "MongoDB", "Express", "Redux", "Stripe"],
-    "categories": ["Fullstack"],
-    "image": "spoken.png",
-    "liveLink": "https://www.spoken.io/",
-    "githubLink": ""
-  },
-  {
-    "title": "NexusMD.ai",
-    "subtitle": "AI Healthcare Platform",
-    "description": "Advanced healthcare platform leveraging AI for medical diagnostics and patient management with AI-powered symptom checker and patient monitoring.",
-    "technologies": ["React", "Node.js", "Python", "FastAPI", "TensorFlow", "PostgreSQL"],
-    "categories": ["AI/ML", "Fullstack"],
-    "image": "nexusmd.png",
-    "liveLink": "http://nexusmd.ai",
-    "githubLink": ""
-  },
-  {
-    "title": "Sophiaverse.ai",
-    "subtitle": "Blockchain Game",
-    "description": "Blockchain-based gaming platform with NFT integration, decentralized economy, and immersive gameplay featuring character NFTs and in-game marketplace.",
-    "technologies": ["Solidity", "Ethereum", "Web3.js", "React", "Node.js", "IPFS"],
-    "categories": ["Blockchain", "Game", "Fullstack"],
-    "image": "sophiaverse.png",
-    "liveLink": "https://www.sophiaverse.ai/",
-    "githubLink": ""
-  },
-  {
-    "title": "GSAP Cocktail",
-    "subtitle": "Fullstack App",
-    "description": "Interactive cocktail recipe application with smooth GSAP animations featuring cocktail discovery, recipe details, ingredient search, and user favorites.",
-    "technologies": ["React", "GSAP", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
-    "categories": ["Fullstack"],
-    "image": "gsap.png",
-    "liveLink": "https://gsap-cocktail-six-snowy.vercel.app/",
-    "githubLink": "https://github.com/luukogod/Gsap-Cocktail"
-  },
-  {
-    "title": "MortalSoft",
-    "subtitle": "Casino Game Platform",
-    "description": "Blockchain-powered casino gaming platform featuring various casino games with provably fair algorithms and cryptocurrency payments.",
-    "technologies": ["Solidity", "Web3.js", "React", "Node.js", "WebGL", "Phaser"],
-    "categories": ["Game", "Blockchain"],
-    "image": "mortalsoft.png",
-    "liveLink": "https://mortalsoft.net/",
-    "githubLink": "https://github.com/luukogod/MortalSoft-Casino-game"
-  },
-  {
-    "title": "OpenSaaS",
-    "subtitle": "SaaS Platform",
-    "description": "Open-source SaaS platform with multi-tenant architecture, subscription management, and comprehensive admin dashboard for business applications.",
-    "technologies": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Tailwind"],
-    "categories": ["Fullstack"],
-    "image": "open-saas.png",
-    "liveLink": "https://opensaas.sh/",
-    "githubLink": "https://github.com/luukogod/Open-SaaS"
-  },
-  {
-    "title": "QuickAI",
-    "subtitle": "AI SaaS Platform",
-    "description": "AI-powered SaaS platform offering various AI tools including content generation, image creation, code assistance, and data analysis.",
-    "technologies": ["React", "FastAPI", "Python", "OpenAI", "PostgreSQL", "Redis"],
-    "categories": ["AI/ML"],
-    "image": "quickai.png",
-    "liveLink": "https://quick-ai-gray-eight.vercel.app/",
-    "githubLink": "https://github.com/luukogod/QuickAI"
-  },
-  {
-    "title": "Healthcare Service",
-    "subtitle": "React App",
-    "description": "Comprehensive healthcare management system for hospitals and clinics with patient management, appointment scheduling, and medical records.",
-    "technologies": ["React", "Firebase", "Node.js", "Material-UI", "Chart.js", "Redux"],
-    "categories": ["Fullstack"],
-    "image": "healthcare.png",
-    "liveLink": "https://healthcare-service-react-app.web.app/",
-    "githubLink": "https://github.com/luukogod/Healthcare-React-App"
-  },
-  {
-    "title": "Balancer.fi",
-    "subtitle": "DeFi Protocol",
-    "description": "Advanced DeFi protocol for automated portfolio management and liquidity provision with smart order routing and customizable pools.",
-    "technologies": ["Solidity", "Ethereum", "Hardhat", "TypeScript", "React", "GraphQL"],
-    "categories": ["Blockchain", "Fullstack"],
-    "image": "balancer.png",
-    "liveLink": "https://balancer.fi/",
-    "githubLink": ""
-  },
-  {
-    "title": "Suithetic",
-    "subtitle": "Blockchain & AI Platform",
-    "description": "Platform combining blockchain technology with AI for synthetic asset creation and trading featuring AI-powered market prediction and DeFi integration.",
-    "technologies": ["Solidity", "Python", "React", "FastAPI", "Machine Learning", "Web3"],
-    "categories": ["AI/ML", "Blockchain"],
-    "image": "Suithetic.png",
-    "liveLink": "https://www.suithetic.com/",
-    "githubLink": "https://github.com/lorine93s/suithetic"
-  },
-  {
-    "title": "Veenox",
-    "subtitle": "Perpetual Trading Platform",
-    "description": "Decentralized perpetual trading platform with leverage, cross-margin, and advanced trading features built for high-performance trading.",
-    "technologies": ["Solidity", "Ethereum", "Vue.js", "Node.js", "WebSocket", "Redis"],
-    "categories": ["Blockchain"],
-    "image": "veenox.png",
-    "liveLink": "https://veenox.xyz/",
-    "githubLink": "https://github.com/lorine93s/Veenox---Perpetual-trading-platfom"
-  },
-  {
-    "title": "Talk to Hosico",
-    "subtitle": "AI Chatbot",
-    "description": "AI-powered chatbot with blockchain integration for secure conversations and data ownership featuring NFT-based identity and encrypted messaging.",
-    "technologies": ["React", "OpenAI", "Solidity", "IPFS", "Node.js", "Web3.js"],
-    "categories": ["AI/ML"],
-    "image": "hosico.png",
-    "liveLink": "https://talk-to-hosico.vercel.app/",
-    "githubLink": "https://github.com/luukogod/Hosico-AI-Chatbot"
-  },
-  {
-    "title": "Ape Store",
-    "subtitle": "NFT Marketplace",
-    "description": "Premium NFT marketplace featuring exclusive digital art and collectibles with auctions, bidding, and community features.",
-    "technologies": ["Solidity", "Ethereum", "Next.js", "IPFS", "GraphQL", "TypeScript"],
-    "categories": ["Blockchain"],
-    "image": "ape-store.png",
-    "liveLink": "https://ape.store/",
-    "githubLink": ""
-  },
-  {
-    "title": "Flork Tools",
-    "subtitle": "Solana Meme Token Platform",
-    "description": "Solana-powered meme token inspired by the beloved online webcomic featuring quirky sock puppet characters. Built with Rust, Anchor framework, and Candy Machine for NFT minting.",
-    "technologies": ["Solana", "Rust", "Anchor", "Candy Machine", "Web3"],
-    "categories": ["Blockchain"],
-    "image": "flork-site.png",
-    "liveLink": "https://flork-site-sooty.vercel.app/",
-    "githubLink": ""
-  },
-  {
-    "title": "Teddies NFT Shop",
-    "subtitle": "Web3 NFT Ecosystem Platform",
-    "description": "Unique Web3 platform for the Teddies NFT ecosystem. Earn points, unlock badges, customize profiles, and participate in upcoming drops with programmable NFT (pNFT) technology.",
-    "technologies": ["Rust", "Anchor", "Solana", "pNFT", "Web3", "NFT Marketplace"],
-    "categories": ["Blockchain"],
-    "image": "teddies.png",
-    "liveLink": "https://www.playteddies.com/",
-    "githubLink": ""
-  },
-  {
-    "title": "Goshuin Atlas",
-    "subtitle": "Mobile App",
-    "description": "The ultimate iOS app for cultural travel in Japan. Discover temples and shrines, explore pilgrimages, and track your goshuin collection.",
-    "technologies": ["SwiftUI", "SwiftData", "MapKit", "iOS"],
-    "categories": ["Mobile"],
-    "image": "goshu.png",
-    "websiteLink": "https://goshuinatlas.com/en",
-    "appStoreLink": "https://apps.apple.com/us/app/goshuin-atlas/id6746737093",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=app.bravostudio.A01GSAFMQ9RM9XCA33J7SGTFPF7&hl=en_IE",
-    "githubLink": ""
-  },
-  {
-    "title": "Links Base",
-    "subtitle": "Static Link Manager",
-    "description": "Self-hosted, zero-config link dashboard for teams. Beautiful, searchable, and deployable anywhere with static export.",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Magic UI"],
-    "categories": ["Fullstack"],
-    "image": "linksbase.png",
-    "websiteLink": "https://demo.linksbase.app/",
-    "githubLink": "https://github.com/luukogod/links-base"
-  },
-  {
-    "title": "Bless Payments",
-    "subtitle": "Fintech Mobile App",
-    "description": "Send money globally with a modern, secure mobile experience. Production apps for iOS and Android.",
-    "technologies": ["React Native", "TypeScript", "Firebase", "Node.js"],
-    "categories": ["Mobile"],
-    "image": "bless.png",
-    "websiteLink": "https://blesspayments.com/",
-    "appStoreLink": "https://apps.apple.com/au/app/bless-payments-money-transfer/id6447718357",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=com.blesspayments.bless"
-  },
-  {
-    "title": "MagicSketch: AI & AR Drawing",
-    "subtitle": "Mobile App",
-    "description": "Transform photos into beautiful sketches with AI. Built end-to-end; 25k+ downloads.",
-    "technologies": ["React Native", "Expo", "AI/ML", "AR"],
-    "categories": ["Mobile", "AI/ML"],
-    "image": "magic-sketch.png",
-    "appStoreLink": "https://apps.apple.com/us/app/magic-sketch-by-boogie-board/id1182125825",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=com.lunatictech.tracetosketch"
-  },
-  {
-    "title": "ZEN Kayak",
-    "subtitle": "Mobile App for iOS and Android",
-    "description": "Find kayak launch sites with geolocation, Mapbox tracking, Algolia search, and premium subscriptions.",
-    "technologies": ["React Native", "Apollo", "GraphQL", "Firebase", "Mapbox", "Algolia", "RevenueCat", "Jest", "Storybook"],
-    "categories": ["Mobile"],
-    "image": "zen.png",
-    "appStoreLink": "https://apps.apple.com/us/app/zen-kayak/id1496639813",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=com.zentrailsapps.zenkayak"
-  },
-  {
-    "title": "CropCare",
-    "subtitle": "AI Plant Health Mobile App",
-    "description": "AI-powered plant disease detection with photo scan, detailed diagnosis, history, multi-language support, and Google sign-in.",
-    "technologies": ["React Native", "AI/ML", "Firebase", "i18n", "Maps"],
-    "categories": ["Mobile", "AI/ML"],
-    "image": "cropcare.png",
-    "appStoreLink": "https://apps.apple.com/ua/app/cropcare/id6756093686?l=uk",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=jp.co.secondstep.cropcare&hl=en_SG"
-  }
+  "title": "Attendance Portal",
+  "subtitle": "MERN Stack Attendance Management System",
+"description": "Modern MERN stack attendance portal with secure authentication, student management, and real-time attendance tracking.",
+  "technologies": ["React", "Node.js", "Express.js", "MongoDB", "JWT", "SCSS"],
+  "categories": ["Fullstack"],
+  "image": "attendance.png",
+  "liveLink": "https://attandences-portal-frontend.vercel.app/",
+  "githubLink": "https://github.com/Hahosameer/Full_Stack_Attendance_Portal.git"
+},
+{
+  "title": "LinkSphere",
+  "subtitle": "Professional Networking Platform",
+  "description": "A LinkedIn-style professional networking platform built with React and Firebase, featuring user authentication, profile management, post creation, real-time updates, and media uploads powered by Cloudinary.",
+  "technologies": ["React", "Firebase", "Cloudinary", "JavaScript","Redux", "CSS3"],
+  "categories": ["Frontend"],
+  "image": "linkedin.png",
+  "liveLink": "https://linkedin-clone-beta-seven.vercel.app/",
+  "githubLink": "https://github.com/Hahosameer/Linkedin-Clone.git"
+},
+{
+  "title": "Social Network App",
+  "subtitle": "Full Stack Social Media Platform",
+  "description": "A Facebook-style social media platform built with MERN stack featuring user authentication, post creation, likes, comments, real-time updates, and media uploads powered by Cloudinary.",
+  "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Redux", "Cloudinary", "JWT"],
+  "categories": ["Fullstack"],
+  "image": "facebook.jpg",
+  "liveLink": "https://facebook-frontend.vercel.app/",
+  "githubLink": "https://github.com/Hahosameer/Full_Stack_Social_Media_Platform.git"
+},
+{
+  "title": "Real Estate Platform",
+  "subtitle": "Full Stack Property Listing Application",
+  "description": "A modern MERN stack real estate platform featuring property listings, secure authentication, image uploads, advanced property management, and real-time chat functionality powered by Socket.IO.",
+  "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Socket.IO", "JWT", "Cloudinary", "Redux"],
+  "categories": ["Fullstack"],
+  "image": "realstate.jpg",
+  "liveLink": "https://real-state-ui-omega.vercel.app/",
+  "githubLink": "https://github.com/Hahosameer/REAL-STATE-UI.git"
+},
+{
+  "title": "E-Commerce Website",
+  "subtitle": "Frontend Shopping Platform",
+  "description": "A responsive e-commerce website built using HTML, CSS, and JavaScript featuring product listings, shopping cart functionality, and interactive UI design.",
+  "technologies": ["HTML5", "CSS3", "JavaScript"],
+  "categories": ["Frontend"],
+  "image": "jellery.jpg",
+  "liveLink": "https://sameer-jewellery-store.vercel.app/",
+  "githubLink": "https://github.com/Hahosameer/JEWELLERY-STORE.git"
+},
+{
+  "title": "Fashion Landing Page",
+  "subtitle": "Modern Frontend Landing Page",
+  "description": "A responsive single-page landing website built with HTML, CSS, and JavaScript featuring modern UI design, smooth layout structure, and interactive sections for a product or brand showcase.",
+  "technologies": ["HTML5", "CSS3"],
+  "categories": ["Frontend"],
+  "image": "fashiion.png",
+  "liveLink": "https://fashion-five-murex.vercel.app/",
+  "githubLink": "https://github.com/Hahosameer/Fashion.git"
+}
 ]

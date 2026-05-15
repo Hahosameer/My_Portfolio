@@ -6,13 +6,13 @@ import {
   SiTypescript, 
   SiNextdotjs,
   SiNodedotjs,
-  SiPython,
+  // SiPython,
   SiRedux,
   SiGraphql,
   SiTailwindcss,
   SiSass,
-  SiVuedotjs,
-  SiDocker,
+  // SiVuedotjs,
+  // SiDocker,
   SiGit,
   SiExpo,
   SiMongodb,
@@ -38,7 +38,7 @@ import {
   SiCypress,
   SiSelenium,
   SiMocha,
-  SiAngular,
+  // SiAngular,
   SiSvelte,
   SiFlutter,
   SiKotlin,
@@ -91,16 +91,16 @@ const Skills = () => {
       icon: <FaCode />,
       skills: [
         { name: 'React', icon: <SiReact /> },
-        { name: 'Next.js', icon: <SiNextdotjs /> },
-        { name: 'TypeScript', icon: <SiTypescript /> },
+        // { name: 'Next.js', icon: <SiNextdotjs /> },
+        // { name: 'TypeScript', icon: <SiTypescript /> },
         { name: 'JavaScript', icon: <SiJavascript /> },
-        { name: 'Angular', icon: <SiAngular /> },
-        { name: 'Vue.js', icon: <SiVuedotjs /> },
-        { name: 'Svelte', icon: <SiSvelte /> },
+        // { name: 'Angular', icon: <SiAngular /> },
+        // { name: 'Vue.js', icon: <SiVuedotjs /> },
+        // { name: 'Svelte', icon: <SiSvelte /> },
         { name: 'HTML5', icon: <SiHtml5 /> },
         { name: 'CSS3', icon: <SiCss3 /> },
         { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
-        { name: 'Redux', icon: <SiRedux /> },
+        // { name: 'Redux', icon: <SiRedux /> },
         { name: 'Bootstrap', icon: <SiBootstrap /> }
       ]
     },
@@ -109,14 +109,14 @@ const Skills = () => {
       icon: <FaServer />,
       skills: [
         { name: 'Node.js', icon: <SiNodedotjs /> },
-        { name: 'Python', icon: <SiPython /> },
-        { name: 'PHP', icon: <SiPhp /> },
-        { name: 'Java', icon: <FaServer /> },
+        // { name: 'Python', icon: <SiPython /> },
+        // { name: 'PHP', icon: <SiPhp /> },
+        // { name: 'Java', icon: <FaServer /> },
         { name: 'Express.js', icon: <SiExpress /> },
-        { name: 'Nest.js', icon: <SiNestjs /> },
-        { name: 'Laravel', icon: <SiLaravel /> },
-        { name: '.NET', icon: <SiDotnet /> },
-        { name: 'GraphQL', icon: <SiGraphql /> },
+        // { name: 'Nest.js', icon: <SiNestjs /> },
+        // { name: 'Laravel', icon: <SiLaravel /> },
+        // { name: '.NET', icon: <SiDotnet /> },
+        // { name: 'GraphQL', icon: <SiGraphql /> },
         { name: 'REST APIs', icon: <FaServer /> }
       ]
     },
@@ -125,81 +125,81 @@ const Skills = () => {
       icon: <FaDatabase />,
       skills: [
         { name: 'MongoDB', icon: <SiMongodb /> },
-        { name: 'PostgreSQL', icon: <SiPostgresql /> },
+        // { name: 'PostgreSQL', icon: <SiPostgresql /> },
         { name: 'MySQL', icon: <SiMysql /> },
-        { name: 'Oracle', icon: <SiOracle /> },
-        { name: 'Redis', icon: <SiRedis /> },
+        // { name: 'Oracle', icon: <SiOracle /> },
+        // { name: 'Redis', icon: <SiRedis /> },
         { name: 'Firebase', icon: <SiFirebase /> },
-        { name: 'AWS', icon: <SiAmazon /> },
-        { name: 'Azure', icon: <SiOracle /> },
-        { name: 'GCP', icon: <SiGoogle /> },
-        { name: 'Docker', icon: <SiDocker /> },
-        { name: 'Kubernetes', icon: <SiKubernetes /> },
-        { name: 'CI/CD', icon: <SiJenkins /> }
+        // { name: 'AWS', icon: <SiAmazon /> },
+        // { name: 'Azure', icon: <SiOracle /> },
+        // { name: 'GCP', icon: <SiGoogle /> },
+        // { name: 'Docker', icon: <SiDocker /> },
+        // { name: 'Kubernetes', icon: <SiKubernetes /> },
+        // { name: 'CI/CD', icon: <SiJenkins /> }
       ]
     }
   ]
 
   const technicalSkillsBottom = [
-    {
-      title: 'Mobile',
-      icon: <FaMobileAlt />,
-      skills: [
-        { name: 'React Native', icon: <SiReact /> },
-        { name: 'Expo', icon: <SiExpo /> },
-        { name: 'Flutter', icon: <SiFlutter /> },
-        { name: 'Kotlin', icon: <SiKotlin /> },
-        { name: 'Swift', icon: <SiSwift /> },
-        { name: 'Ionic', icon: <SiIonic /> },
-        { name: 'Redux', icon: <SiRedux /> },
-        { name: 'TypeScript', icon: <SiTypescript /> }
-      ]
-    },
-    {
-      title: 'AI/ML',
-      icon: <FaBrain />,
-      skills: [
-        { name: 'OpenAI', icon: <SiOpenai /> },
-        { name: 'PyTorch', icon: <SiPytorch /> },
-        { name: 'LLM', icon: <FaBrain /> },
-        { name: 'Python', icon: <SiPython /> },
-        { name: 'TensorFlow', icon: <FaBrain /> },
-        { name: 'Machine Learning', icon: <FaBrain /> }
-      ]
-    }
+    // {
+    //   title: 'Mobile',
+    //   icon: <FaMobileAlt />,
+    //   skills: [
+    //     { name: 'React Native', icon: <SiReact /> },
+    //     { name: 'Expo', icon: <SiExpo /> },
+    //     { name: 'Flutter', icon: <SiFlutter /> },
+    //     { name: 'Kotlin', icon: <SiKotlin /> },
+    //     { name: 'Swift', icon: <SiSwift /> },
+    //     { name: 'Ionic', icon: <SiIonic /> },
+    //     { name: 'Redux', icon: <SiRedux /> },
+    //     { name: 'TypeScript', icon: <SiTypescript /> }
+    //   ]
+    // },
+    // {
+    //   title: 'AI/ML',
+    //   icon: <FaBrain />,
+    //   skills: [
+    //     { name: 'OpenAI', icon: <SiOpenai /> },
+    //     { name: 'PyTorch', icon: <SiPytorch /> },
+    //     { name: 'LLM', icon: <FaBrain /> },
+    //     { name: 'Python', icon: <SiPython /> },
+    //     { name: 'TensorFlow', icon: <FaBrain /> },
+    //     { name: 'Machine Learning', icon: <FaBrain /> }
+    //   ]
+    // }
   ]
 
   const softSkills = [
     {
       title: 'Communication',
       icon: <FaComments />,
-      description: 'Effective verbal and written communication with stakeholders, team members, and clients.'
+      description: 'Good communication and collaboration skills while working on projects.'
     },
     {
       title: 'Problem Solving',
       icon: <FaLightbulb />,
-      description: 'Analytical thinking and creative problem-solving abilities to tackle complex technical challenges.'
+      description: 'Able to solve coding and development problems efficiently.'
     },
-    {
-      title: 'Leadership',
-      icon: <FaCrown />,
-      description: 'Experience leading teams, mentoring junior developers, and driving project success.'
-    },
+    // {
+    //   title: 'Leadership',
+    //   icon: <FaCrown />,
+    //   description: 'Experience leading teams, mentoring junior developers, and driving project success.'
+    // },
     {
       title: 'Adaptability',
       icon: <FaRocket />,
-      description: 'Quick learner with ability to adapt to new technologies and changing project requirements.'
+      description: 'Quick learner and adaptable to new technologies and environments.'
     },
     {
       title: 'Team Collaboration',
       icon: <FaUsers />,
-      description: 'Strong team player with experience in agile methodologies and cross-functional collaboration.'
+      description: 'Comfortable working with teams and contributing to shared goals.'
     },
-    {
-      title: 'Attention to Detail',
-      icon: <FaHeart />,
-      description: 'Meticulous approach to code quality, testing, and delivering polished user experiences.'
-    }
+    // {
+    //   title: 'Attention to Detail',
+    //   icon: <FaHeart />,
+    //   description: 'Meticulous approach to code quality, testing, and delivering polished user experiences.'
+    // }
   ]
 
   const tools = [
@@ -210,39 +210,39 @@ const Skills = () => {
         { name: 'VS Code', icon: <FaCode /> },
         { name: 'Git', icon: <SiGit /> },
         { name: 'GitHub', icon: <SiGithub /> },
-        { name: 'GitLab', icon: <SiGitlab /> },
+        // { name: 'GitLab', icon: <SiGitlab /> },
         { name: 'Postman', icon: <SiPostman /> },
-        { name: 'Webpack', icon: <SiWebpack /> },
+        // { name: 'Webpack', icon: <SiWebpack /> },
         { name: 'Vite', icon: <SiVite /> },
         { name: 'npm', icon: <FaCode /> },
-        { name: 'yarn', icon: <FaCode /> },
-        { name: 'Docker', icon: <SiDocker /> }
+        // { name: 'yarn', icon: <FaCode /> },
+        // { name: 'Docker', icon: <SiDocker /> }
       ]
     },
-    {
-      title: 'Design Tools',
-      icon: <FaPalette />,
-      tools: [
-        { name: 'Figma', icon: <SiFigma /> },
-        { name: 'Adobe XD', icon: <SiAdobexd /> },
-        { name: 'Sketch', icon: <SiSketch /> },
-        { name: 'Photoshop', icon: <SiAdobephotoshop /> },
-        { name: 'Illustrator', icon: <SiAdobeillustrator /> },
-        { name: 'Storybook', icon: <SiStorybook /> }
-      ]
-    },
-    {
-      title: 'Testing & Deployment',
-      icon: <FaCog />,
-      tools: [
-        { name: 'Jest', icon: <SiJest /> },
-        { name: 'Cypress', icon: <SiCypress /> },
-        { name: 'Selenium', icon: <SiSelenium /> },
-        { name: 'Mocha', icon: <SiMocha /> },
-        { name: 'Testing Library', icon: <SiJest /> },
-        { name: 'Jenkins', icon: <SiJenkins /> }
-      ]
-    }
+    // {
+    //   title: 'Design Tools',
+    //   icon: <FaPalette />,
+    //   tools: [
+    //     { name: 'Figma', icon: <SiFigma /> },
+    //     // { name: 'Adobe XD', icon: <SiAdobexd /> },
+    //     // { name: 'Sketch', icon: <SiSketch /> },
+    //     // { name: 'Photoshop', icon: <SiAdobephotoshop /> },
+    //     // { name: 'Illustrator', icon: <SiAdobeillustrator /> },
+    //     // { name: 'Storybook', icon: <SiStorybook /> }
+    //   ]
+    // },
+    // {
+    //   title: 'Testing & Deployment',
+    //   icon: <FaCog />,
+    //   tools: [
+    //     // { name: 'Jest', icon: <SiJest /> },
+    //     // { name: 'Cypress', icon: <SiCypress /> },
+    //     // { name: 'Selenium', icon: <SiSelenium /> },
+    //     // { name: 'Mocha', icon: <SiMocha /> },
+    //     // { name: 'Testing Library', icon: <SiJest /> },
+    //     // { name: 'Jenkins', icon: <SiJenkins /> }
+    //   ]
+    // }
   ]
 
   return (

@@ -29,14 +29,12 @@ const Projects = () => {
     []
   )
 
-  const categories = [
-    { name: 'All', icon: <FaCode /> },
-    { name: 'Fullstack', icon: <FaServer /> },
-    { name: 'Mobile', icon: <FaMobileAlt /> },
-    { name: 'Blockchain', icon: <FaBitcoin /> },
-    { name: 'AI/ML', icon: <FaBrain /> },
-    { name: 'Game', icon: <FaGamepad /> }
-  ]
+ const categories = [
+  { name: 'All', icon: <FaCode /> },
+  { name: 'Fullstack', icon: <FaServer /> },
+  { name: 'Frontend', icon: <FaCode /> },
+  { name: 'Mobile', icon: <FaMobileAlt /> }
+]
 
   const filteredProjects =
     activeCategory === 'All'

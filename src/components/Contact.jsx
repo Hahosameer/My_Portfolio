@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FaEnvelope, FaLinkedin, FaGithub, FaTelegram, FaPaperPlane } from 'react-icons/fa'
+import { FaEnvelope, FaLinkedin, FaGithub, FaPaperPlane, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import site from '../data/site.json'
 import { logger } from '../utils/browserLogger'
 import './Contact.css'
-
+import emailjs from '@emailjs/browser'
 const Contact = () => {
   const { contact, person } = site
   const year = new Date().getFullYear()
@@ -22,14 +22,34 @@ const Contact = () => {
     })
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    logger.info('Form submitted')
-    logger.debug('Form payload', formData)
-    alert('Thank you for your message! I will get back to you soon.')
-    setFormData({ name: '', email: '', subject: '', message: '' })
-  }
+ const handleSubmit = (e) => {
+  e.preventDefault()
 
+  emailjs.send(
+    'service_quzkvot',
+    'template_i5eiyxn',       // ⛔ yahan apna template id lagana
+    {
+      from_name: formData.name,
+      from_email: formData.email,
+      subject: formData.subject,
+      message: formData.message
+    },
+    'eKoeZtuja794jAHw8'         // ⛔ yahan public key lagana
+  )
+  .then(() => {
+    alert('Message sent successfully 🚀')
+    setFormData({
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    })
+  })
+  .catch((error) => {
+    console.error(error)
+    alert('Something went wrong ❌')
+  })
+}
   return (
     <section id="contact" className="contact">
       <div className="contact-container">
@@ -125,49 +145,75 @@ const Contact = () => {
         </motion.div>
       </div>
 
-      <footer className="footer">
-        <div className="footer-content">
-          <p className="footer-copyright">
-            © {year} {person.copyrightName}. All rights reserved.
-          </p>
-          <div className="footer-social">
-            <a
-              href={contact.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer-social-icon"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href={contact.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer-social-icon"
-              aria-label="GitHub"
-            >
-              <FaGithub />
-            </a>
-            <a href={`mailto:${contact.email}`} className="footer-social-icon" aria-label="Email">
-              <FaEnvelope />
-            </a>
-            {contact.telegram ? (
-              <a
-                href={contact.telegram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-social-icon"
-                aria-label="Telegram"
-              >
-                <FaTelegram />
-              </a>
-            ) : null}
-          </div>
-        </div>
-      </footer>
+   <footer className="footer">
+  <div className="footer-content">
+
+    <p className="footer-copyright">
+      © {year} {person.copyrightName}. All rights reserved.
+    </p>
+
+    <div className="footer-social">
+
+      <a
+        href={contact.linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="footer-social-icon"
+        aria-label="LinkedIn"
+      >
+        <FaLinkedin />
+      </a>
+
+      <a
+        href={contact.github}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="footer-social-icon"
+        aria-label="GitHub"
+      >
+        <FaGithub />
+      </a>
+
+      <a
+        href={`mailto:${contact.email}`}
+        className="footer-social-icon"
+        aria-label="Email"
+      >
+        <FaEnvelope />
+      </a>
+
+      {/* Instagram */}
+      {contact.instagram && (
+        <a
+          href={contact.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-social-icon"
+          aria-label="Instagram"
+        >
+          <FaInstagram />
+        </a>
+      )}
+
+      {/* WhatsApp */}
+      {contact.whatsapp && (
+        <a
+          href={contact.whatsapp}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-social-icon"
+          aria-label="WhatsApp"
+        >
+          <FaWhatsapp />
+        </a>
+      )}
+
+    </div>
+  </div>
+</footer>
     </section>
   )
 }
 
 export default Contact
+// service_t9790j5

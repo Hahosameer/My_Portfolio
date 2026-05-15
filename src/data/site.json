@@ -1,15 +1,16 @@
 {
   "siteUrl": "https://luukogod.github.io/luukogod-porfolio/",
   "person": {
-    "displayName": "Vitaliy Sopin",
-    "copyrightName": "Vitaliy Sopin"
+  "displayName": "Khan Sameer",
+  "copyrightName": "Khan Sameer"
   },
-  "contact": {
-    "email": "sopinvitaly97@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/vitaliy-sopin-1a16713a7/",
-    "github": "https://github.com/luukogod",
-    "telegram": "https://t.me/lorine93ss"
-  },
+"contact": {
+  "email": "ks4063180@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/sameer-khan-org/",
+  "github": "https://github.com/Hahosameer",
+  "instagram": "https://www.instagram.com/i_love_coding007/",
+  "whatsapp": "https://wa.me/923442042543"
+},
   "hero": {
     "roles": [
       "Full Stack Engineer"
