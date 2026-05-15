@@ -32,7 +32,7 @@ const Navigation = ({ activeSection }) => {
       label: 'CV',
       icon: <FaFilePdf />,
       external: true,
-      link: 'https://real-state-ui-omega.vercel.app/'
+      link: 'https://drive.google.com/file/d/19d3f6orxI4g_Zl623EY_BGaRizekTMqO/view?usp=sharing'
     }
 
   ]
