@@ -189,39 +189,37 @@
 }
 
 @media (max-width: 768px) {
-  .contact-title-styled {
-    font-size: 2.5rem;
+
+  .contact-container {
+    padding: 0 1rem;
   }
-  
-  .contact-subtitle-main {
-    font-size: 1rem;
-    margin-bottom: 2.5rem;
-  }
-  
+
   .contact-form-card {
-    padding: 2rem;
+    width: 100%;
+    margin: 0 auto 2rem;
+    padding: 1.2rem;
+    border-radius: 20px;
   }
-  
-  .form-card-title {
-    font-size: 1.5rem;
-  }
-  
+
   .form-row {
     grid-template-columns: 1fr;
+    gap: 0.8rem;
   }
-  
-  .btn-send-message-new {
+
+  .form-group-contact input,
+  .form-group-contact textarea {
     width: 100%;
-    justify-content: center;
+    box-sizing: border-box;
   }
-  
+
   .footer-content {
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
     text-align: center;
   }
-  
+
   .footer-social {
+    flex-wrap: wrap;
     justify-content: center;
   }
 }
